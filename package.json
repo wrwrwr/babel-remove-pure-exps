@@ -3,7 +3,7 @@
     "version": "0.0.1",
     "description": "Babel transform to remove no-op expression statements.",
     "author": "Wojtek Ruszczewski <babel-remove-pure-exps@wr.waw.pl>",
-    "keywords": ["babel", "plugin", "transform", "minification"],
+    "keywords": ["babel", "plugin", "transform", "minification", "expressions"],
     "scripts": {
         "build": "babel main.jsx -o dist/main.es5.js",
         "test": "eslint . --ext=js --ext=jsx && mocha --ui tdd tests",
